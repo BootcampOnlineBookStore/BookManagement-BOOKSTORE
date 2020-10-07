@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.cg.book.service.BookService;
-import com.cg.dao.BookDao;
+import com.cg.book.dao.BookDao;
 import com.cg.book.entity.Book;
 import com.cg.book.exception.BookException;
 
