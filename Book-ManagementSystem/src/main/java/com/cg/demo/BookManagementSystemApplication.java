@@ -1,13 +1,17 @@
-package com.cg.book;
+package com.cg.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
-public class BookManagementSystemApplication {
-
-	public static void main(String[] args) {
+public class BookManagementSystemApplication 
+{
+	public static void main(String[] args)
+	{
 		SpringApplication.run(BookManagementSystemApplication.class, args);
 	}
 
 }
+

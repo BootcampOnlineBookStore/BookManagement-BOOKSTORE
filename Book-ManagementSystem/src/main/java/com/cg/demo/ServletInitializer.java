@@ -1,4 +1,4 @@
-package com.cg.book;
+package com.cg.demo;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
