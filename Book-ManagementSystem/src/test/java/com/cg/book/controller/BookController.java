@@ -25,7 +25,6 @@ public class BookController
 	@Autowired
 	BookService  bookService;
 
-
 		@GetMapping("books")
 		public ResponseEntity<List<Book>>  findAllBook() throws BookException
 		{
@@ -33,6 +32,7 @@ public class BookController
 			ResponseEntity<List<Book>>  rt = new ResponseEntity<List<Book>>(listBooks,HttpStatus.OK);
 			return rt;	
 		}
+		
 	@PostMapping("books/category/{categoryId}")
 	public ResponseEntity<Book> addBook(@PathVariable("categoryId")int categoryId,@RequestBody Book book) throws BookException 
 	{
